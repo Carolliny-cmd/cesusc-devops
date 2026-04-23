@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-"scripts": {
-  "test": "jest --coverage"
-},
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint src/*.js"
+  },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Carolliny-cmd/cesusc-devops.git"
@@ -21,6 +23,10 @@
     "express": "^5.2.1"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.1",
+    "globals": "^17.5.0",
     "jest": "^30.3.0"
   }
+  
 }
